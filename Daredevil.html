@@ -1,4 +1,46 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+<style>
+    :root{
+        --devil-suit: #85010c;
+    }
+    #header{
+        margin: 0px 0px 0px 145px;
+        color: var(--devil-suit,#85010c);
+        font-family: "Ceviche One", Times New Roman;
+        font-size: 96px; 
+    }
+    #header2{
+        color: var(--devil-suit,#85010c);
+        margin: 50px 0px 75px 325px;
+        font-size: 32px;
+        font-family: Times New Roman;
+    }
+    #image{
+        margin: 20px 0px 0px 340px;
+        border-color: #000000;
+        border-width: 20px;
+        border-style: solid;
+    }
+    #banner{
+        background-color: #000000;
+        padding: 0px 0px 3.5px 0px;
+        margin: -10px -10px 5px -10px;
+    }
+    #bod{
+        background-color: #560319;
+        color: #FFFFFF;
+        font-family: "Ceviche One", Times New Roman;
+        font-size: 28px;
+        margin: -10px -10px -10px -10px;
+        padding: 0px 0px 20px 10px
+    }
+    #link{
+        color:#FFFFFF;
+    }
+</style>
 <html>
     <head>
         <title>
@@ -6,17 +48,20 @@
         </title>
     </head>
     <body>
+        <div id="banner">
         <h1 id="header">The Unofficial Daredevil Fanpage</h1>
-        <h2>Inviting all Daredevil Enthusiasts to join our fan fraternity</h2>
-        <img src="https://c4.wallpaperflare.com/wallpaper/629/764/852/daredevil-comics-marvel-comics-wallpaper-preview.jpg" alt="The Awesome Daredevil">
+        <h2 id="header2">Inviting all Daredevil Enthusiasts to join our fan fraternity</h2>
+        </div>
+        <div id="bod">
+        <img id="image" src="https://c4.wallpaperflare.com/wallpaper/629/764/852/daredevil-comics-marvel-comics-wallpaper-preview.jpg" alt="The Awesome Daredevil">
         <p>
             Welcome, fellow marvel watcher. Since you've ended up here, we have not doubt
             that you are a follower of the awesome, the one and only Daredevil. This is the
             right place for one such as you to be. Please enjoy this homage to the lord of justice,
             the protector of the people and the Devil of Hell's Kitchen: The Daredevil.
         </p>
-        <p>A link to the trailer of the popular Netflix show, <a href="https://www.youtube.com/watch?v=jAy6NJ_D5vU">Marvel's Daredevil</a></p>
-        <p>Matt Murdock, AKA The Daredevil's bio and a pull list for comic enthusiasts can be found at <a href="https://www.marvel.com/characters/daredevil-matthew-murdock">Marvel's Website</a></p>
+        <p>A link to the trailer of the popular Netflix show, <a id="link" href="https://www.youtube.com/watch?v=jAy6NJ_D5vU">Marvel's Daredevil</a></p>
+        <p>Matt Murdock, AKA The Daredevil's bio and a pull list for comic enthusiasts can be found at <a id="link" href="https://www.marvel.com/characters/daredevil-matthew-murdock">Marvel's Website</a></p>
         <p>Which of Daredevil's qualities do you like the most?</p>
         <form>
             <label for="Justice">
@@ -41,7 +86,7 @@
                 <input id="Both" name="sources" type="checkbox" value="Both of the above">Both of the above
             </label>
         </form>
-        <a href="#header">jump to top</a>
+        <footer>Thank you for visiting this web page!</footer>
+        </div>
     </body>
-    <footer>Thank you for visiting this web page!</footer>
 </html>
