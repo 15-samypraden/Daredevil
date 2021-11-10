@@ -6,6 +6,12 @@
     :root{
         --devil-suit: #85010c;
     }
+    .top{
+        text-align: top;
+    }
+    .center{
+        text-align: center;
+    }
     #header{
         margin: 0px 0px 0px 145px;
         color: var(--devil-suit,#85010c);
@@ -14,31 +20,110 @@
     }
     #header2{
         color: var(--devil-suit,#85010c);
-        margin: 50px 0px 75px 325px;
+        margin: 50px 0px 75px 400px;
         font-size: 32px;
-        font-family: Times New Roman;
+        font-family: "Ceviche One", Times New Roman;
     }
     #image{
-        margin: 20px 0px 0px 340px;
+        margin: 0px 0px 0px 340px;
         border-color: #000000;
         border-width: 20px;
         border-style: solid;
+        box-shadow: 10px 10px 20px 5px #000000;
+    }
+    #img{
+        background: linear-gradient(180deg, #000000, #560319);
+        margin: 0px -10px 15px -10px
     }
     #banner{
         background-color: #000000;
         padding: 0px 0px 3.5px 0px;
-        margin: -10px -10px 5px -10px;
+        margin: -10px -10px 0px -10px;
     }
-    #bod{
+    body{
+        background: #560319;
+    }
+    #intro{
         background-color: #560319;
         color: #FFFFFF;
-        font-family: "Ceviche One", Times New Roman;
+        text-align: center;
         font-size: 28px;
-        margin: -10px -10px -10px -10px;
-        padding: 0px 0px 20px 10px
+        font-family: Times New Roman;
+        margin: 75px 75px 5px 75px;
+    }
+    #bod{
+        background: linear-gradient(0deg, #000000, #560319);
+        margin: 0px -10px -10px -10px;
+    }
+    #authors{
+        background: url(https://images.comicbooktreasury.com/wp-content/uploads/2020/10/Daredevil-Reading-Order-Comicbooktreasury.jpg);
+        padding: 20%;
+        transform: scale(0.75);
+        margin: -10px 10px 100px 0px;
+        border-radius: 5%;
+        border-style: solid;
+        border-width: 3px;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 0.8px #000000, -1px 1px 0.8px #000000, 1px -1px 0.8px #000000, -1px -1px 0.8px #000000;
+        font-size: 28px;
+        line-height: 60px;
+        padding-bottom: 30px;
+        box-shadow: 10px 10px 20px 5px #000000;
+    }
+    #character{
+        margin: 100px 340px 100px 332.5px;
+        background: url(https://discussingfilm.net/wp-content/uploads/2019/06/img_8993.jpg);
+        padding: 25.5%;
+        transform: scale(1.4);
+        padding-bottom: 0px;
+        border-radius: 5%;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #FFFFFF;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 0.8px #000000, -1px 1px 0.8px #000000, 1px -1px 0.8px #000000, -1px -1px 0.8px #000000;
+        line-height: 25px;
+        font-size: 16px;
+        box-shadow: 10px 10px 20px 5px #000000;
+    }
+    h3{
+        margin: -250px 0px 50px 275px;
+    }
+    #head2{
+        margin: -335px -100px 40px -30px;
+        font-size: 19px;
+    }
+    #poster{
+        margin: 50px 495px 0px 530px;
+        border-style: solid;
+        border-color: #FFFFFF;
+        border-width: 5px;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        box-shadow: 10px 10px 20px 5px #700B21, -10px -10px 20px 5px #700B21;
     }
     #link{
-        color:#FFFFFF;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+    #linktxt{
+        margin: 0px 0px 0px 30px;
+        padding-top: 70px;
+    }
+    #chartxt{
+        margin: 0px -210px 20px -210px;
+    }
+    #MU{
+        margin: 75px 425px 0px 480px;
+        border-style: solid;
+        border-color: #FFFFFF;
+        border-width: 5px;
+        box-shadow: 10px 10px 20px 5px #700B21, -10px -10px 20px 5px #700B21; 
+    }
+    footer{
+        margin: 150px 0px 0px 0px;
     }
 </style>
 <html>
@@ -52,17 +137,59 @@
         <h1 id="header">The Unofficial Daredevil Fanpage</h1>
         <h2 id="header2">Inviting all Daredevil Enthusiasts to join our fan fraternity</h2>
         </div>
-        <div id="bod">
+        <div id="img">
         <img id="image" src="https://c4.wallpaperflare.com/wallpaper/629/764/852/daredevil-comics-marvel-comics-wallpaper-preview.jpg" alt="The Awesome Daredevil">
+        </div>
+        <div id="intro">
         <p>
             Welcome, fellow marvel watcher. Since you've ended up here, we have not doubt
             that you are a follower of the awesome, the one and only Daredevil. This is the
             right place for one such as you to be. Please enjoy this homage to the lord of justice,
             the protector of the people and the Devil of Hell's Kitchen: The Daredevil.
         </p>
+        </div>
+        <div id="bod">
+        <div id="authors">
+            <h3>Creating A Legend</h3>
+            <p>
+                Matthew Murdock was blinded as a result of exposure to radioactive materials at the 
+                age of nine. His father, Battlin' Jack Murdock, was a boxer that refused to back down.
+                Orphaned as a result of the rampant crime in Hell's Kitchen, one would expect him to
+                give up... not today, he said.<br>
+                Daredevil, with his heightened senses, fighting skills and thirst for justice, has become
+                one of the most influential heroes of all time. Created by Stan Lee and Bill Everett and 
+                improved upon by the legendary Frank Miller, he is as much a symbol of hope and security
+                as all the Avengers combined.
+            </p>
+        </div>
+        <div id="character">
+            <h3 id="head2">Pillar of Law</h3>
+            <p id="chartxt">
+                As the Daredevil, he has saved countless lives and brought a sense of safety to
+                nightime Hell's Kitchen. However, the ever unwearied spirit of Matt Murdock displays
+                a proficiency not just on the battlefield, but also in a court of Law.<br>
+                A skilled orator and well versed in the Law, Matt Murdock has undertaken the defense
+                of New York's innocent in the daytime as well. He has protected the civil rights and 
+                liberties of common New Yorkers on numerous occasions and has brought the criminals
+                of the day to justice.<br>
+                From defending tenants against greedy landlords to teaching his clients how to defend
+                themselves once he couldn't, the list of what Matthew has done for his city is far from
+                short.
+            </p>
+        </div>
+        <div id="link">
+        <p id="linktxt">Watch the trailer for the popular Netflix Series here!</p>
+        <a href="https://www.youtube.com/watch?v=jAy6NJ_D5vU" target="blank_"><img id="poster" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/daredevil_lob_crd_02.jpg"></a>
+        <p id="linktxt">For more information like an in-depth profile and origin story, visit Marvel's website here!</p>
+        <a href="https://www.marvel.com/characters/daredevil-matthew-murdock" target="blank_"><img id="MU" src="https://www.apkmirror.com/wp-content/uploads/2020/11/37/5fb3ecdd701f6.png"></a>
+        </div>
+        <footer>Thank you</footer>
+        </div>
+        <!--
         <p>A link to the trailer of the popular Netflix show, <a id="link" href="https://www.youtube.com/watch?v=jAy6NJ_D5vU">Marvel's Daredevil</a></p>
         <p>Matt Murdock, AKA The Daredevil's bio and a pull list for comic enthusiasts can be found at <a id="link" href="https://www.marvel.com/characters/daredevil-matthew-murdock">Marvel's Website</a></p>
         <p>Which of Daredevil's qualities do you like the most?</p>
+        
         <form>
             <label for="Justice">
                 <input id="Justice" name="qualities" type="radio">Sense of Right and Wrong
@@ -86,7 +213,6 @@
                 <input id="The Movie" name="sources" type="checkbox" value="">THe Original Movie
             </label>
         </form>
-        <footer>Thank you for visiting this web page!</footer>
-        </div>
+    -->
     </body>
 </html>
