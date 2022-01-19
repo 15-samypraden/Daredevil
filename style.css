@@ -1,0 +1,156 @@
+:root{
+    --devil-suit: #85010c;
+    --font-h: "Ceviche One", Times New Roman;
+}
+#header{
+    margin: 0rem 0rem 0rem 9.1rem;
+    color: var(--devil-suit,#85010c);
+    font-family: var(--font-h);
+    font-size: 6rem; 
+}
+#header2{
+    color: var(--devil-suit,#85010c);
+    margin: 3.125rem 0rem 4.68rem 24.75rem;
+    font-size: 2rem;
+    font-family: var(--font-h);
+}
+#image{
+    margin: 0rem 0rem 0rem 21.6rem;
+    border-color: #000000;
+    border-width: 20px;
+    border-style: solid;
+    box-shadow: 10px 10px 20px 5px #000000;
+}
+#img{
+    background: linear-gradient(180deg, #000000, #560319);
+    margin: 0px -1rem 1.5rem -0.75rem
+}
+#banner{
+    background-color: #000000;
+    padding: 0px 0px 3.5px 0px;
+    margin: -1rem -1rem 0rem -1rem;
+}
+body{
+    background: #560319;
+}
+#intro{
+    background-color: #560319;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: Times New Roman;
+    margin: 75px 75px -3rem 75px;
+}
+#bod{
+    background: linear-gradient(0deg, #000000, #560319);
+    margin: 0rem -1rem 0rem -1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infospec{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 65.75rem;
+    height: 33rem;
+    border-radius: 8%;
+    border-style: solid;
+    border-width: 3px;
+    color: #FFFFFF;
+    line-height: 2.25rem;
+    font-size: 1.4rem;
+    box-shadow: 10px 10px 20px 5px #000000;
+}
+.txtshdo{
+    text-shadow: 1px 1px 0.8px #000000, -1px 1px 0.8px #000000, 1px -1px 0.8px #000000, -1px -1px 0.8px #000000;
+}
+#authors{
+    background: url(https://images.comicbooktreasury.com/wp-content/uploads/2020/10/Daredevil-Reading-Order-Comicbooktreasury.jpg);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 0.80rem;
+}
+#character{
+    background: url(https://discussingfilm.net/wp-content/uploads/2019/06/img_8993.jpg);
+    background-size: cover;
+    height: 35rem;
+    line-height: 2.17rem;
+}
+.authhead{
+    position: relative;
+    left: 37.85rem;
+    top: 8.5rem;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.authtxt{
+    margin: 0rem 13rem 2rem 13rem;
+}
+.charhead{
+    position: relative;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    left: 41rem;
+    top: 6rem;
+}
+.charatxt{
+    margin: 0rem 13rem 2rem 13rem;
+}
+.poster{
+    position: relative;
+    left: 16rem;
+    width: 27.5rem;
+    margin-top: 3rem;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    box-shadow: 10px 10px 20px 5px #700B21, -10px -10px 20px 5px #700B21;
+}
+.linktxt{
+    margin: 0px 0px 0px 30px;
+    padding-top: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+footer{
+    margin: 150px 0px 0px 0px;
+}
+@media (max-width: 750px){
+    #header{
+        font-size: 35px;
+        margin: 0px 0px 0px 50px;
+    }
+    #header2{
+        margin: 50px 10px 0px 20px;
+        font-size: 28px;
+        font-family: "Ceviche One", Times New Roman;
+    }
+    #image{
+        margin: 0px 0px -25px -142.5px;
+        transform: scale(0.55);
+        
+    }
+    #intro{
+        font-size: 20px;
+        margin: 0px 0px 0px 0px;
+    }
+    #authors{
+        transform: scale(0.75);
+        margin: -60px 0px 300px 0px;
+        padding: 20%;
+        padding-bottom: 0px;
+        font-size: 26px;
+        line-height: 38px;
+    }
+    h3{
+        margin: -35px 0px 0px 0px;
+    }
+    #character{
+        padding: 40%;
+    }
+}
